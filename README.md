@@ -5,8 +5,9 @@ A template for creating svelte projects.
 ## Installing
 
 ```bash
-npx degit ceyper/svelte-template my-project
+mkdir my-project
 cd my-project
+npx degit ceyper/svelte-template .
 git init
 npm install
 ```
