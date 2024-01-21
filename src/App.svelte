@@ -1,7 +1,8 @@
 <script lang="ts">
     import Component from "$lib/Component.svelte";
+    import data from "$assets/data.json5";
 
-    const text: string = "variable";
+    const text: string = data.content;
 </script>
 
 <!----------------------------------------------------------------------------->
