@@ -18,7 +18,7 @@
     // force strict mode
     "paths": {
       "$*": [
-        "src/*"
+        "./src/*"
       ]
     },
     "typeRoots": [
